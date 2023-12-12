@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 200px;
+}
+
+.title {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.input {
+  padding: 0 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  min-width: 110px;
+  height: 40px;
+  padding: 5px 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(21, 184, 21);
+  color: white;
+}
